@@ -1,8 +1,8 @@
 import React from "react";
 const AboutUs = () => {
   return (
-    <div className="bg-black h-full w-full">
-      <h1 className="text-black">This is about section</h1>
+    <div className="flex justify-center items-center bg-black h-screen w-full">
+      <h1 className="text-white ">This is about page</h1>
     </div>
   );
 };
