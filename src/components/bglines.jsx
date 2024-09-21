@@ -1,4 +1,3 @@
-import React from "react";
 import { BackgroundLines } from "./ui/background-lines";
 import { BackgroundBeams } from "./ui/background-beams";
 import { Cover } from "./ui/cover";

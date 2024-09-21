@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from "react-router-dom";
 // import { AuroraBackgroundDemo } from "./aurora";
 import AllRoutes from "./AllRoutes";
-import Navbar from "./components/ui/Navbar";
+import Navbar from "./Navbar";
 import Home from "./Pages/Home";
 function App() {
   return (
