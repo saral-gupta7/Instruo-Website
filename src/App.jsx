@@ -12,7 +12,6 @@ function App() {
         <Navbar />
         <AllRoutes />
       </Router>
-      {/* <Home /> */}
     </main>
   );
 }

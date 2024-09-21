@@ -1,9 +1,12 @@
 import React from "react";
-import { AuroraBackgroundDemo } from "../aurora";
+import BackgroundLinesDemo from "../components/bglines";
+import CanvasRevealEffectDemo2 from "../components/cardreveal";
+
 const Home = () => {
   return (
     <div>
-      <AuroraBackgroundDemo />
+      <BackgroundLinesDemo />
+      <CanvasRevealEffectDemo2 />
     </div>
   );
 };

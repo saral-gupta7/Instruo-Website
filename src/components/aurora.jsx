@@ -1,9 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
-import { AuroraBackground } from "./components/ui/aurora-background";
+import { AuroraBackground } from "./ui/aurora-background";
+import { BackgroundBeams } from "./ui/background-beams";
 export function AuroraBackgroundDemo() {
   return (
     <AuroraBackground>
+      <BackgroundBeams />
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
