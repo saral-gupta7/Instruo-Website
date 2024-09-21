@@ -1,5 +1,5 @@
 const Sponsor = () => {
-  return <div>Sponsor</div>;
+  return <div className="text-black">This is a sponsor.</div>;
 };
 
 export default Sponsor;
