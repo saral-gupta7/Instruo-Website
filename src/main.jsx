@@ -5,6 +5,7 @@ import "./index.css";
 import { ThemeProvider } from "./components/theme-provider.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    {/* Theme Provider: Enables Dark mode in Aceternity Components. */}
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <App />
     </ThemeProvider>

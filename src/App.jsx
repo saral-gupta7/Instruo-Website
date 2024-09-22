@@ -1,11 +1,9 @@
 import { BrowserRouter as Router } from "react-router-dom";
-// import { AuroraBackgroundDemo } from "./aurora";
 import AllRoutes from "./AllRoutes";
 import Navbar from "./Navbar";
-import Home from "./Pages/Home";
 function App() {
   return (
-    <main className="">
+    <main>
       <Router>
         <Navbar />
         <AllRoutes />
@@ -15,4 +13,3 @@ function App() {
 }
 
 export default App;
-Home;
