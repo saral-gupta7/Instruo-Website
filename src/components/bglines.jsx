@@ -6,7 +6,7 @@ export default function BackgroundLinesDemo() {
   return (
     <div className="relative z-[-10]">
       <BackgroundBeams />
-      <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
+      <BackgroundLines className="flex items-center justify-center w-full flex-col px-4 h-screen">
         <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-r from-blue-400 to-purple-600 text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight mt-[-1rem]">
           Experience the Future at <br />
           <Cover>
